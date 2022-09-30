@@ -1,0 +1,362 @@
+:root{
+    --primary-white-color: #F5F5F5;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --primary-hover-color:#2196F3;
+    --secondary-logo-color:#000000;
+    --footer-backroung:#2F303A;
+    --footer-contacts:rgba(255, 255, 255, 0.6);
+
+}
+
+body{
+    width: 1600px;
+    height: 2346px;
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    font-family: roboto,sans-serif;
+}
+
+.items { list-style: none; 
+}
+
+    /* -----------Header -----------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    width:1600px;
+    height: 80px;
+    border: 1px solid #ECECEC
+   }
+
+.header-logo {
+        font-family:raleway,sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing:0.0.03em;
+        padding-top: 24px;
+        padding-bottom: 25px;
+        padding-left: 215px ;
+        padding-right:93px;
+        text-decoration: none;
+    }
+
+.web {color: var(--primary-hover-color);
+}
+.studio{color: var(--secondary-logo-color);
+}
+
+.nav-link {color: var(--title-text-color);
+    text-decoration: none; 
+}
+.nav-link:hover {
+     color: var(--primary-hover-color);
+     text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-link:focus{   color: var(--primary-hover-color);
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contacts-link { color: var(--primary-text-color);
+    text-decoration: none;
+}
+.contacts-link:hover{color: var(--primary-hover-color);}
+
+
+/* Main section */
+.section-title{color: var(--title-text-color);
+}
+
+.button{cursor: pointer;}
+
+/* ------------HERO------------------*/
+
+.hero-section {
+    background-color: #2F303A;
+    width:1600px;
+    height:600px;
+ }
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-family: roboto,sans-serif;
+    font-style: Black;
+    font-size: 44px;
+    line height: 1.36;
+    text-align:center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;  
+
+    width: 696px;
+    height: 120px;
+
+    padding-top: 200px;
+    padding-left:  452px;
+  }
+
+.hero-btn{ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    padding: 10px 32px;
+    position: absolute;
+    background: var(--primary-hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 692px;
+}
+
+/*----------- Section features -------------- */
+
+.features { 
+    margin-bottom: 94px ;
+}
+
+.features-title {visibility: hidden;
+}
+.features-items {padding-left: 215px;
+    padding-right: 215px;
+    display: flex;
+    justify-content: space-between;
+}
+.features-text {
+    width: 270px;
+}
+.features-subtitle { 
+    width: 270px;
+    height: 16px;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+.features-desc {
+    width: 270px;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+
+/* <!-- Секція чим ми займаємось --> */
+
+.benefits-section {
+}
+
+.benefits-title {  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    padding-left: 617px; 
+}
+
+.benefits-item {    
+    padding-left:215px;
+    padding-right:215px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.benefits-img {
+}
+
+/* <!-- Секція Наша команда --> */
+
+.avatar-section {
+    width: 1600px;
+    height: 648px; 
+    background: #F5F4FA;
+}
+
+.avatar-title {
+    padding-top: 94px;
+    padding-left: 668px;
+    padding-bottom: 50px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+}
+
+.avatar-items {padding-left:215px;
+    padding-right:215px;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 368px;
+    
+
+   
+}
+.avatar-list {
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.avatar-subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align:center;
+    letter-spacing: 0.03em;
+}
+.avatar-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
+/* Сторінка Portfolio */
+/* <!-- Секція фільтр --> */
+
+
+.filter-section {
+margin-top: 94px;
+width: 1170px;
+}
+.filter-title{visibility:hidden ;}
+
+.filter-items{
+    padding-left: 512px;
+    padding-right:513px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-btn {background-color: F5F4FA;
+    border-radius: 4px;
+    width: 125px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.filter-btn:hover{color:#FFFFFF;
+    background-color:var(--primary-hover-color);
+}
+.filter-btn:focus {color:#FFFFFF;
+    background-color:var(--primary-hover-color);
+}
+
+    /*------ section-promo ---------*/
+
+.promo-section{
+    width: 1170px;
+    height: 1360px;
+    padding-left: 215px;
+}
+
+.promo-title{visibility:hidden;}
+
+.promo-items {
+    display: flex;
+    justify-content:space-between;}
+
+
+.promo-list{
+   
+    box-sizing: border-box;
+    padding-left: 215px;
+
+    background: #FFFFFF;
+    
+    border: 1px solid #EEEEEE;
+}
+
+.promo-subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;}
+
+.promo-text {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+    
+
+.promo-link{text-decoration: none;
+}
+
+/* Footer */
+.footer-container{
+    background-color:var(--footer-backroung);
+    width: 1600px;
+    height: 252px; }
+
+.footer-items{
+
+    padding-left:  1154px;
+    padding-bottom: 60px;
+    padding-left: 215px;
+
+}
+.footer-contacts{ }
+
+.footer-map{ 
+    color: var(--primary-white-color);
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+}
+.footer-contacts > a {color: var(--footer-contacts);
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footer-logo {
+    font-family:'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
+    display: flex;
+
+    padding-top: 60px;
+    padding-left:  1240px;
+    padding-bottom: 20px;
+    padding-left: 215px;
+    text-decoration: none;
+}
+.web-logo{color: var(--primary-hover-color);}
+.studio-logo{color: var(--primary-white-color);}
