@@ -52,7 +52,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     }
 .nav-link:hover {
@@ -68,7 +68,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     }
 .contacts-link:hover{color: var(--primary-hover-color);}
@@ -110,7 +110,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -145,7 +145,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -155,7 +155,7 @@ body{
     font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
@@ -168,7 +168,7 @@ letter-spacing: 0.03em;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     padding-left: 617px; 
 }
@@ -199,7 +199,7 @@ letter-spacing: 0.03em;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 
 }
@@ -225,7 +225,7 @@ letter-spacing: 0.03em;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align:center;
     letter-spacing: 0.03em;
 }
@@ -233,7 +233,7 @@ letter-spacing: 0.03em;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -263,7 +263,7 @@ width: 1170px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -297,13 +297,13 @@ width: 1170px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;}
 
 .promo-text {font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
@@ -334,7 +334,7 @@ width: 1170px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em; 
 }
 .footer-map:hover{color: var(--primary-hover-color);}
@@ -350,7 +350,7 @@ width: 1170px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
